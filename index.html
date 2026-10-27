@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacena Production | Agence Audiovisuelle & Divertissement Sportif</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .bg-custom-gradient {
+            background: linear-gradient(135deg, #064e3b 0%, #022c22 50%, #000000 100%);
+        }
+        .card-glass {
+            background: rgba(6, 78, 59, 0.2);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(16, 185, 129, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-black text-white font-sans antialiased selection:bg-emerald-500 selection:text-black">
+
+    <!-- HEADER / NAVBAR -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-md border-b border-emerald-900/30">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 rounded-xl bg-emerald-600 flex items-center justify-center font-black text-xl text-black">H</div>
+                <span class="text-xl font-bold tracking-wider uppercase">Hacena <span class="text-emerald-500">Prod.</span></span>
+            </div>
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-gray-300">
+                <a href="#concept" class="hover:text-emerald-400 transition">Le Concept</a>
+                <a href="#terrain" class="hover:text-emerald-400 transition">Tout-Terrain</a>
+                <a href="#lives" class="hover:text-emerald-400 transition">Lives & Twitch</a>
+                <a href="#recrutement" class="hover:text-emerald-400 transition text-emerald-400">Recrutement 🎬</a>
+                <a href="#contact" class="hover:text-emerald-400 transition">Contact Pro</a>
+            </nav>
+            <a href="#contact" class="bg-emerald-500 hover:bg-emerald-400 text-black font-semibold px-5 py-2.5 rounded-xl transition shadow-lg shadow-emerald-500/20 text-sm">
+                Espace Annonceurs
+            </a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="relative min-h-screen bg-custom-gradient flex items-center justify-center pt-20 px-6 overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#10b981_1px,transparent_1px)] [background-size:24px_24px]"></div>
+        <div class="relative max-w-5xl mx-auto text-center space-y-8 z-10">
+            <span class="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-semibold uppercase tracking-wider">
+                <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                Saison 2026-2027 • Bordeaux & National
+            </span>
+            <h1 class="text-5xl md:text-7xl font-black tracking-tight leading-none">
+                LE SPORT AMATEUR <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-200">SANS FILTRE.</span>
+            </h1>
+            <p class="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto font-normal">
+                Agence de production audiovisuelle & maison de création de contenus. On associe l'exigence technique professionnelle, l'immersion terrain et l'art de faire rire.
+            </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
+                <a href="#terrain" class="w-full sm:w-auto bg-emerald-500 hover:bg-emerald-400 text-black font-bold px-8 py-4 rounded-xl transition text-center shadow-xl shadow-emerald-500/20">
+                    Découvrir notre savoir-faire
+                </a>
+                <a href="#recrutement" class="w-full sm:w-auto card-glass hover:bg-emerald-500/10 text-white font-semibold px-8 py-4 rounded-xl transition text-center border border-emerald-500/30">
+                    Rejoindre l'équipe (Stages)
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- TOUT-TERRAIN SECTION -->
+    <section id="terrain" class="py-24 px-6 bg-zinc-950">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center space-y-4 mb-16">
+                <h2 class="text-3xl md:text-5xl font-black">ON EST PARTOUT. VRAIMENT PARTOUT.</h2>
+                <p class="text-gray-400 max-w-xl mx-auto">Faire de l'audiovisuel et du sport en extérieur sous la pluie, dans la boue ou en plein cagnard, ce n'est pas pour tout le monde. Nous, si.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="card-glass p-8 rounded-2xl space-y-4">
+                    <div class="w-12 h-12 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-xl font-bold">01</div>
+                    <h3 class="text-xl font-bold">Maîtrise Élémentaire</h3>
+                    <p class="text-gray-400 text-sm">Pluie battante, vent de tempête ou canicule sur un terrain de district : notre matos et notre organisation s'adaptent à toutes les conditions extrêmes.</p>
+                </div>
+                <div class="card-glass p-8 rounded-2xl space-y-4">
+                    <div class="w-12 h-12 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-xl font-bold">02</div>
+                    <h3 class="text-xl font-bold">Humour & Authenticité</h3>
+                    <p class="text-gray-400 text-sm">On casse les codes des retransmissions sportives classiques. Du second degré, des concepts décalés et une vraie proximité avec les communautés locales.</p>
+                </div>
+                <div class="card-glass p-8 rounded-2xl space-y-4">
+                    <div class="w-12 h-12 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-xl font-bold">03</div>
+                    <h3 class="text-xl font-bold">Régie Live Embarquée</h3>
+                    <p class="text-gray-400 text-sm">Une infrastructure technique mobile ultra-robuste (GH5, régie OBS, streaming direct, liaisons nomades) pour retransmettre partout en haute qualité.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LIVES & TWITCH -->
+    <section id="lives" class="py-24 px-6 bg-black">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6">
+                <span class="text-emerald-400 font-bold text-sm tracking-wider uppercase">Diffusion en Direct</span>
+                <h2 class="text-3xl md:text-4xl font-black">TWITCH & YOUTUBE : LE LIVE SANS CONCESSION</h2>
+                <p class="text-gray-300">
+                    Nos retransmissions de matchs amateurs et nos formats événementiels (road-trips, défis physiques, happenings) sont pensés pour interagir en direct avec la communauté. 
+                </p>
+                <ul class="space-y-3 text-sm text-gray-400">
+                    <li class="flex items-center space-x-3"><i class="fa-solid fa-check text-emerald-400"></i><span>Commentaires décalés et immersifs au bord de touche</span></li>
+                    <li class="flex items-center space-x-3"><i class="fa-solid fa-check text-emerald-400"></i><span>Interactions temps réel avec le chat (défis, oreillettes)</span></li>
+                    <li class="flex items-center space-x-3"><i class="fa-solid fa-check text-emerald-400"></i><span>Replays et formats longs montés sur notre chaîne officielle</span></li>
+                </ul>
+            </div>
+            <div class="card-glass p-8 rounded-3xl border border-emerald-500/20 text-center space-y-6">
+                <div class="w-20 h-20 bg-emerald-500/10 text-emerald-400 rounded-full flex items-center justify-center mx-auto text-3xl">
+                    <i class="fa-solid fa-video"></i>
+                </div>
+                <h3 class="text-2xl font-bold">Envie de collaborer ou de voir nos diffs ?</h3>
+                <p class="text-gray-400 text-sm">Clubs de foot, de rugby, ou partenaires annonceurs : confiez-nous la mise en valeur de vos événements sportifs.</p>
+                <a href="#contact" class="inline-block bg-emerald-500 text-black font-bold px-8 py-3 rounded-xl hover:bg-emerald-400 transition">
+                    Proposer un match / Partenariat
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- RECRUTEMENT SECTION -->
+    <section id="recrutement" class="py-24 px-6 bg-zinc-950">
+        <div class="max-w-5xl mx-auto text-center space-y-12">
+            <div class="space-y-4">
+                <span class="text-emerald-400 font-bold text-sm tracking-wider uppercase">Rejoins l'aventure</span>
+                <h2 class="text-3xl md:text-5xl font-black">OFFRES DE STAGES (SAISON 2026-2027)</h2>
+                <p class="text-gray-400 max-w-xl mx-auto">Basés à Bordeaux avec des missions sur le terrain et en télétravail, nous recrutons nos talents de demain.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
+                <div class="card-glass p-8 rounded-2xl space-y-4 border border-emerald-500/20">
+                    <div class="flex justify-between items-center">
+                        <span class="text-xs font-bold text-emerald-400 uppercase tracking-wider">Stage • Bordeaux / Hybride</span>
+                        <span class="text-xs bg-emerald-500/20 text-emerald-300 px-2.5 py-1 rounded-full font-semibold">Ouvert</span>
+                    </div>
+                    <h3 class="text-xl font-bold">Monteur Vidéo / Post-Réalisateur</h3>
+                    <p class="text-gray-400 text-sm">En charge des formats longs YouTube, du rythme, du sound design et de la stratégie de clipping sur les réseaux sociaux (TikTok/Insta).</p>
+                    <a href="#contact" class="inline-block text-emerald-400 font-semibold text-sm hover:underline">Postuler via LinkedIn &rarr;</a>
+                </div>
+                <div class="card-glass p-8 rounded-2xl space-y-4 border border-emerald-500/20">
+                    <div class="flex justify-between items-center">
+                        <span class="text-xs font-bold text-emerald-400 uppercase tracking-wider">Stage • Terrain & Déplacements</span>
+                        <span class="text-xs bg-emerald-500/20 text-emerald-300 px-2.5 py-1 rounded-full font-semibold">Ouvert</span>
+                    </div>
+                    <h3 class="text-xl font-bold">Cadreur / Opérateur Caméra</h3>
+                    <p class="text-gray-400 text-sm">Captation de matchs, plans immersifs, gestion du setup GH5/Action Cams sur le terrain et suivi de nos road-trips sportifs.</p>
+                    <a href="#contact" class="inline-block text-emerald-400 font-semibold text-sm hover:underline">Postuler via LinkedIn &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="py-24 px-6 bg-custom-gradient">
+        <div class="max-w-3xl mx-auto card-glass p-8 md:p-12 rounded-3xl space-y-8 border border-emerald-500/30">
+            <div class="text-center space-y-3">
+                <h2 class="text-3xl font-black">CONTACT PRO & PARTENARIATS</h2>
+                <p class="text-gray-300 text-sm">Une marque, un club, une question ? Écrivez-nous directement.</p>
+            </div>
+            <form class="space-y-6" onsubmit="event.preventDefault(); alert('Merci ! Votre message a bien été transmis à l\'équipe Hacena Production.');">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="space-y-2">
+                        <label class="text-xs font-semibold text-gray-300 uppercase">Nom / Structure</label>
+                        <input type="text" required class="w-full bg-black/50 border border-emerald-900/50 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500 text-sm" placeholder="ex: FC Bordeaux / Décathlon">
+                    </div>
+                    <div class="space-y-2">
+                        <label class="text-xs font-semibold text-gray-300 uppercase">Email Professionnel</label>
+                        <input type="email" required class="w-full bg-black/50 border border-emerald-900/50 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500 text-sm" placeholder="contact@hacenaprod.fr">
+                    </div>
+                </div>
+                <div class="space-y-2">
+                    <label class="text-xs font-semibold text-gray-300 uppercase">Votre Message</label>
+                    <textarea rows="4" required class="w-full bg-black/50 border border-emerald-900/50 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500 text-sm" placeholder="Parlons de votre projet de diffusion ou de sponsoring..."></textarea>
+                </div>
+                <button type="submit" class="w-full bg-emerald-500 hover:bg-emerald-400 text-black font-bold py-4 rounded-xl transition shadow-lg shadow-emerald-500/20">
+                    Envoyer le message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-12 bg-black border-t border-emerald-900/30 text-center text-sm text-gray-500 space-y-4">
+        <p>&copy; 2026 Hacena Production (SASU). Tous droits réservés. Bordeaux, France.</p>
+    </footer>
+
+</body>
+</html>
